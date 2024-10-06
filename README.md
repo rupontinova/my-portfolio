@@ -5,11 +5,7 @@ Welcome to my interactive portfolio website! This project presents a unique term
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Commands](#commands)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Interactive terminal interface for a modern portfolio experience.
@@ -22,4 +18,19 @@ Welcome to my interactive portfolio website! This project presents a unique term
 - CSS
 - JavaScript
 - Bootstrap (for styling)
+
+## Commands
+Here are some of the commands you can use:
+
+- **`help`**: List available commands and their functions.
+- **`skills`** or **`s`**: View a detailed list of my skills.
+- **`projects`** or **`pj`**: Discover my projects and their details.
+- **`about`**: Learn more about me and my background.
+- **`clear`** or **`c`**: Clear the terminal output.
+- **`github`** or **`gh`**: Redirect to my GitHub profile.
+- **`linkedin`** or **`lk`**: Redirect to my LinkedIn profile.
+- **`facebook`** or **`fb`**: Redirect to my Facebook profile.
+- **`email`** or **`em`**: Open your email client to send me a message.
+- **`instagram`** or **`st`**: Redirect to my Instagram profile.
+
 
