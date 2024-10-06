@@ -17,7 +17,6 @@ Welcome to my interactive portfolio website! This project presents a unique term
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (for styling)
 
 ## Commands
 Here are some of the commands you can use:
