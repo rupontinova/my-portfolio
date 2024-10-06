@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nova's Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  
+<body>
+  <div class="buttons-bar">
+    <div class="buttons">
+      <div class="close"></div>
+      <div class="minimize"></div>
+      <div class="expand"></div>
+    </div>
+  </div>
+
+    <div id="terminal">
+      <div id="mainInfo">
+        <div>
+          <div class="inlineContainer">
+ <pre>
+  
+Hello World! I'm
+
+███╗░░██╗░█████╗░██╗░░░██╗░█████╗░
+████╗░██║██╔══██╗██║░░░██║██╔══██╗
+██╔██╗██║██║░░██║╚██╗░██╔╝██║░░██║
+██║╚████║██║░░██║░╚████╔╝░██║══██║
+██║░╚███║╚█████╔╝░░╚██╔╝░░██║░░██║
+╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝
+        </pre
+            >
+            <img src="lain.png" alt class="avatar" />
+          </div>
+            <div class="typing-demo">
+            Welcome to my personal website!
+            </div>
+          <div id="helpCmdList"></div>
+        </div>
+      </div>
+      <div id="output"></div>
+      <div id="input" class="command-input">
+        <span id="prompt">
+          <span class="ownerTerminal"><b>nova@profile</b></span
+          ><b>:~$</b>
+        </span>
+
+        <input
+          type="text"
+          id="cmd"
+          oninput="showSuggestions()"
+          onkeydown="handleKeyDown(event)"
+        />
+      </div>
+
+      <div id="suggestions"></div>
+    </div>
+  </body>
+</html>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
