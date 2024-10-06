@@ -1,4 +1,4 @@
-# Portfolio Terminal Interface
+# Terminal Themed Portfolio (a fun project I made)
 
 Welcome to my interactive portfolio website! This project presents a unique terminal-style interface where users can explore my skills, projects, and personal information through command-line commands.
 
