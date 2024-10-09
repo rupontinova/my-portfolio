@@ -104,7 +104,7 @@ window.addEventListener("DOMContentLoaded", function () {
                                 <h1>Hello! I'm Ruponti Muin Nova 👩‍💻</h1>
                                 <p>I'm an undergrad at <strong>Bangladesh University of Professionals</strong>, currently studying in <strong>Information and Communication Engineering</strong>.</p>
                                 <h2>About me:</h2>
-                                <p>Creativity fuels me, whether it's sketching or solving bugs.</p>
+                                <p>Creativity fuels me from lines on paper to lines of code.</p>
                                 <h2>Tech Stack:</h2>
                                 <h3>🖥 FrontEnd</h3>
                                 <ul>
@@ -119,7 +119,7 @@ window.addEventListener("DOMContentLoaded", function () {
                                 <h3>Other</h3>
                                 <ul>
                                     <li>📜 <strong>Languages</strong>: <code>C</code>, <code>C++</code>, <code>Java</code></li>
-                                    <li>👑 <strong>Leadership</strong>: Communicating ideas as Assistant Joint Secretary of the <strong>BUP InfoTech Club</strong> and as Design & Creativity Coordinator at <strong>IEEE BUP Student Branch</strong>.</li>
+                                    <li><strong>Leadership</strong>: Communicating ideas as Assistant Joint Secretary of the <strong>BUP InfoTech Club</strong> and as Design & Creativity Coordinator at <strong>IEEE BUP Student Branch</strong>.</li>
                                 </ul>
                                 <h2>Fun Fact:</h2>
                                 <p>When I'm not knee-deep in code, you can find me either drawing or binge-watching animes!</p>

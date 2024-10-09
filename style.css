@@ -1,5 +1,5 @@
 /*Artwork Holder(outer)*/
-.artwrokContainer {
+.artworkContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; 
