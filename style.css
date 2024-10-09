@@ -1,20 +1,141 @@
-.blogArticle {
-    border: 2px solid plum;
-    border-radius: 10px;
-    max-width: 400px;
-    max-height: 350px;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
-    transition: border-color 0.3s ease-in-out;
-  }
-  .blogArticle:hover {
+/*Artwork Holder(outer)*/
+.artwrokContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+
+.artwork {
+  flex: 1 1 calc(33.333% - 10px);
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid plum;
+  border-radius: 10px;
+  max-width: 420px;
+  max-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+  .artwork:hover {
     box-shadow: 0 0 0.5em 0 #5e5e5e;
     border-color: #5e5e5e;
     color: #faebd7;
   }
+
+.artwork img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover; 
+}
   * {
     font-size: 20px;
+    
+  }
+
+  /*Artwork Holder(inner)*/
+
+  .image-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer; 
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 21, 84, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease-in-out;
+  }
+
+.image-container:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title{
+  color: yellow;
+  text-align: center;
+  margin: 0;
+}
+.description {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 900;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid white;
+}
+
+
+.modal-close {
+  position: absolute;
+  top: 40px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.modal-close:hover{
+  color: plum;
+}
+
+/*terminal button*/
+  body .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  body .buttons-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #333; 
+    padding: 10px;
   }
   
   body .buttons {
@@ -22,48 +143,33 @@
     gap: 5px;
   }
   
-  body .buttons-bar {
-    position: fixed; /* Fix the bar at the top */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure the bar is above other elements */
-    background-color: #333; /* Example background color */
-    padding: 10px;
-  }
-  
-  body .buttons {
-    display: flex;
-    gap: 5px; /* Adjust the gap between buttons if needed */
-  }
-  
    .buttons .close,
    .buttons .minimize,
    .buttons .expand {
-    width: 15px; /* Adjust the size of the buttons */
-    height: 15px; /* Adjust the size of the buttons */
+    width: 15px; 
+    height: 15px; 
     border-radius: 50%;
     transition: 0.3s ease;
   }
   
    .buttons .close {
-    background-color: red; /* Adjust color if needed */
+    background-color: red; 
   }
   .close:hover {
-    background-color: #d64242; /* Darker shade on hover */
+    background-color: #d64242; 
   }
    .buttons .minimize {
-    background-color: yellow; /* Adjust color if needed */
+    background-color: yellow;
   }
   .minimize:hover {
-    background-color: #e5a526; /* Darker shade on hover */
+    background-color: #e5a526; 
   }
   
    .buttons .expand {
-    background-color: lime; /* Adjust color if needed */
+    background-color: lime;
   }
   .expand:hover {
-    background-color: #219834; /* Darker shade on hover */
+    background-color: #219834; 
   }
   
   
@@ -85,17 +191,19 @@
   body .commandName {
     color: rgb(255, 0, 255);
   }
+
+
   body .avatar {
     margin-left: 20px;
-    margin-top: 30px; /* Adjust this value to move the avatar down */
+    margin-top: 30px; 
     opacity: 0.7;
     width: 150px;
     height: 200px;
     filter: grayscale(50%);
     transition: filter 0.3s ease, opacity 0.3s ease;
     cursor: pointer;
-    position: relative; /* Ensure the image scrolls with the page */
-    z-index: 1; /* Ensure the image is below the bar */
+    position: relative; 
+    z-index: 1; 
   }
   
   body .avatar:hover {
@@ -193,7 +301,7 @@
     display: inline-flex;
     margin-top: 20px;
   }
-  .article-wrapper {
+  .project-wrapper {
     margin: 10px;
     width: 250px;
     transition: 0.15s all ease-in-out;
@@ -203,19 +311,13 @@
     cursor: pointer;
     background-color: #ffebcd;
   }
-  .article-wrapper:hover {
+  .project-wrapper:hover {
     box-shadow: 10px 10px 0 #5abb9a, 20px 20px 0 plum;
     border-color: #2d0922;
     transform: translate(-20px, -20px);
   }
-  .article-wrapper:active {
-    box-shadow: none;
-    transform: translate(0);
-  }
-  .article-wrapper:hover .project-hover {
-    transform: rotate(-45deg);
-    background-color: #a6c2f0;
-  }
+ 
+ 
   .project-info {
     padding: 10px 0 20px;
     display: flex;
@@ -265,13 +367,13 @@
     align-items: center;
   }
   .skillBarItem1 {
-    width: 90%;
+    width: 80%;
     height: 30px;
     background: #FFCDEA;
     animation: slide1 2s ease-in-out;
   }
   .skillBarItem2 {
-    width: 90%;
+    width: 80%;
     height: 30px;
     background: #FFCDEA;
     animation: slide2 2s ease-in-out;
@@ -289,25 +391,25 @@
     animation: slide4 2s ease-in-out;
   }
   .skillBarItem5 {
-    width: 95%;
+    width: 85%;
     height: 30px;
     background: #FFCDEA;
     animation: slide5 2s ease-in-out;
   }
   .skillBarItem6 {
-    width: 95%;
+    width: 85%;
     height: 30px;
     background: #FFCDEA;
     animation: slide6 2s ease-in-out;
   }
   .skillBarItem7 {
-    width: 90%;
+    width: 85%;
     height: 30px;
     background: #FFCDEA;
     animation: slide7 2s ease-in-out;
   }
   .skillBarItem8 {
-    width: 87%;
+    width: 80%;
     height: 30px;
     background: #FFCDEA;
     animation: slide8 2s ease-in-out;
@@ -317,7 +419,7 @@
       width: 0;
     }
     to {
-      width: 90%;
+      width: 80%;
     }
   }
   @keyframes slide2 {
@@ -325,7 +427,7 @@
       width: 0;
     }
     to {
-      width: 90%;
+      width: 80%;
     }
   }
   @keyframes slide3 {
@@ -349,7 +451,7 @@
       width: 0;
     }
     to {
-      width: 95%;
+      width: 85%;
     }
   }
   @keyframes slide6 {
@@ -357,7 +459,7 @@
       width: 0;
     }
     to {
-      width: 95%;
+      width: 85%;
     }
   }
   @keyframes slide7 {
@@ -365,7 +467,7 @@
       width: 0;
     }
     to {
-      width: 90%;
+      width: 85%;
     }
   }
   @keyframes slide8 {
@@ -373,6 +475,6 @@
       width: 0;
     }
     to {
-      width: 87%;
+      width: 80%;
     }
   }
