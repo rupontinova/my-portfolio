@@ -478,3 +478,10 @@
       width: 80%;
     }
   }
+  
+  .artwork-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #505050;
+  }
