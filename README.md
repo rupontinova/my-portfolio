@@ -7,6 +7,7 @@ Welcome to my interactive portfolio website! This project presents a unique term
 - [Technologies Used](#technologies-used)
 - [Commands](#commands)
 - [Screenshot](#screenshot)
+- [Sneak Peak](#sneak-peak)
 ## Features
 - Interactive terminal interface for a modern portfolio experience.
 - Easy navigation through simple command inputs.
@@ -34,4 +35,8 @@ Here are some of the commands you can use:
 ## Screenshot
 ![Portfolio Screenshot](images/screenshot_1.png)
 ![Portfolio Screenshot](images/screenshot_2.png)
+## Sneak Peak!
+[Here's a little sneak peak!](images/record.mov)
+## Check Out My Website here 
+Visit: [My Portfolio](https://rupontinova.github.io/my-portfolio/)
 
