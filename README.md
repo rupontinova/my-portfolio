@@ -35,6 +35,6 @@ Here are some of the commands you can use:
 ## Screenshot
 ![Portfolio Screenshot](images/screenshot_1.png)
 ![Portfolio Screenshot](images/screenshot_2.png)
-## Visit the Website
-Visit: [My Website!](https://rupontinova.github.io/my-portfolio/)
+## Visit!
+Visit: [my-portfolio](https://rupontinova.github.io/my-portfolio/)
 
