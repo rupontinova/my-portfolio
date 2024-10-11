@@ -31,5 +31,7 @@ Here are some of the commands you can use:
 - **`facebook`** or **`fb`**: Redirect to my Facebook profile.
 - **`email`** or **`em`**: Open your email client to send me a message.
 - **`instagram`** or **`st`**: Redirect to my Instagram profile.
+## Screenshot
+![Portfolio Screenshot](images/screenshot_1.png)
 
 
