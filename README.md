@@ -33,5 +33,5 @@ Here are some of the commands you can use:
 - **`instagram`** or **`st`**: Redirect to my Instagram profile.
 ## Screenshot
 ![Portfolio Screenshot](images/screenshot_1.png)
-
+![Portfolio Screenshot](images/screenshot_2.png)
 
