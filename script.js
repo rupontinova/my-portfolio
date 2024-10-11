@@ -319,7 +319,68 @@ let suggestions = [
 ],
     helpCmd =
         '\n  <br>Type any of the following commands to explore: <br />\n  [<span class="commandName">skills</span>] or [<span class="commandName">s</span>] -see what im skilled at \n  <br />\n  [<span class="commandName">projects</span>] or [<span class="commandName">pj</span>] -discover my projects \n  <br />\n  [<span class="commandName">about</span>]\n -all about me ;) <br />\n [<span class="commandName">artworks</span>]\n -view my artworks <br />\n [<span class="commandName">help</span>]\n -to guide you <br /><br />\n  [<span class="commandName">clear</span>]\n  <br /><br />\n  Contact me: <br />\n  [<span class="commandName">github</span>]\n  <br />\n  [<span class="commandName">linkedin</span>]\n  <br />\n  [<span class="commandName">facebook</span>]\n  <br />\n  [<span class="commandName">email</span>]\n  <br />\n  [<span class="commandName">instagram</span>]\n  <br />\n ',
-    skillsBar =
-        '\n<div class="container">\n  <div class="flex">\n    <h2>HTML:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem1"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>CSS:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem2"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>JS/ES6:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem3"></div>\n    </div>\n    <h3>75%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>REACT:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem4"></div>\n    </div>\n    <h3>52%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>JAVA:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem5"></div>\n    </div>\n    <h3>85%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>MySQL:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem6"></div>\n    </div>\n    <h3>85%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>C++:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem7"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n  <h2>PHP</h2>\n  <div class="skillBar">\n    <div class="skillBarItem8"></div>\n  </div>\n  <h3>80%</h3>\n</div>\n</div>',
+    /*skillsBar =
+        '\n<div class="container">\n  <div class="flex">\n    <h2>HTML:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem1"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>CSS:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem2"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>JS/ES6:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem3"></div>\n    </div>\n    <h3>75%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>REACT:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem4"></div>\n    </div>\n    <h3>52%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>JAVA:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem5"></div>\n    </div>\n    <h3>85%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>MySQL:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem6"></div>\n    </div>\n    <h3>85%</h3>\n  </div>\n\n  <div class="flex">\n    <h2>C++:</h2>\n    <div class="skillBar">\n      <div class="skillBarItem7"></div>\n    </div>\n    <h3>80%</h3>\n  </div>\n\n  <div class="flex">\n  <h2>PHP</h2>\n  <div class="skillBar">\n    <div class="skillBarItem8"></div>\n  </div>\n  <h3>80%</h3>\n</div>\n</div>',*/
     projectCmd =
         '\n<div class="projectsDiv">\n<article\n  class="project-wrapper"\n  onclick="linkHref(\'https://github.com/rupontinova/Inventory-Manager-StockPro-\')"\n>\n  <div class="project-info">\n    <div class="flex-pr">\n      <div class="project-title text-nowrap">StockPro</div>\n    </div>\n    <div class="flex-pr">\n      <p class="project-description">\n        A CLI based Inventory Management Program. </br> <code>Technology : JAVA</code>\n    </p>\n    </div>\n  </div>\n</article>\n\n<article\n  class="project-wrapper"\n  onclick="linkHref(\'https://github.com/rupontinova/Inventory-Nexus\')"\n>\n  <div class="project-info">\n    <div class="flex-pr">\n      <div class="project-title text-nowrap">Inventory<br />Nexus</div>\n    </div>\n    <div class="flex-pr">\n      <p class="project-description">\n        Inventory Nexus is an Inventory Management System Application based on JAVA swing GUI.\n   <code>Technology : JAVA, MYSQL</code>\n    </p>\n    </div>\n  </div>\n</article>\n\n<article\n  class="project-wrapper"\n  onclick="linkHref(\'https://github.com/rupontinova/Treatwell\')"\n>\n  <div class="project-info">\n    <div class="flex-pr">\n      <div class="project-title text-nowrap">TreatWell</div>\n    </div>\n    <div class="flex-pr">\n      <p class="project-description">\n        A healthcare website patients and doctrors. </br> <code>Technology : PHP, HTML, CSS, JS, MYSQL</code>\n    </p>\n    </div>\n  </div>\n</article>\n\n<article\n  class="project-wrapper"\n  onclick="linkHref(\'https://github.com/rupontinova/my-portfolio\')"\n>\n  <div class="project-info">\n    <div class="flex-pr">\n      <div class="project-title text-nowrap">my-portfolio</div>\n    </div>\n    <div class="flex-pr">\n      <p class="project-description">\n        A stupid personal website. </br> <code>Technology : JAVA, HTML, CSS</code>\n    </p>\n    </div>\n  </div>\n</article>\n\n</div>\n  ';
+
+ skillsBar = `
+</br>
+</br>
+</br> 
+<div class="coordinate-system">
+        <div class="x-axis">
+         </div>
+        <div class="y-axis"> 
+        </div>
+        <div class="x-label">Nerdy Skills</div>
+        <div class="x-label-2">Life Skills</div>
+        <div class="y-label">Pro Skills</div>
+         <div class="y-label-2">Noob Zone</div>
+             <img src="images/arrow.svg" alt="Arrow1" class="arrow-image">
+              <img src="images/arrow.svg" alt="Arrow2" class="arrow-image_2">
+                            <img src="images/arrow.svg" alt="Arrow3" class="arrow-image_3">
+                   
+<div class="quadrant-box tl" >
+    <div class="skills-container">
+        <div class="skill-box-1">HTML</div>
+        <div class="skill-box-1">CSS</div>
+        <div class="skill-box-1">JavaScript</div>
+        <div class="skill-box-1">React</div>
+        <div class="skill-box-1">PHP</div>
+        <div class="skill-box-1">MySQL</div>
+        <div class="skill-box-1">Java</div>
+    </div>
+</div>
+    
+        <div class="quadrant tr">
+            <div class="skills-container">
+        <div class="skill-box-2">Drawing</div>
+        <div class="skill-box-2">Babysitting</div>
+ <div class="skill-box-2">Watching Anime</div> 
+  <div class="skill-box-2">Sleeping</div> 
+    </div>
+        </div>
+
+      <div class="text-tr">
+    Master of Mundane </br> (Everyday things </br> I'm actually good at)</div>
+
+        <div class="quadrant bl">
+             <div class="skills-container">
+        <div class="skill-box-3">Unknown</div>
+      
+    </div>
+        </div>
+ <div class="text-bl">
+   Unconciously </br> not being aware </br> of the skills I lack.</div>
+        <div class="quadrant br">
+         <div class="skills-container">
+        <div class="skill-box-4">Speaking Up</div>
+        </div>
+         <div class="text-br">Still trying to </br> overcome the fear.</div>
+    </div>
+    </div>
+`;
+
+
+document.getElementById('skillsBar').innerHTML = skillsBar;
