@@ -1,18 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nova's Portfolio</title>
   <link rel="stylesheet" href="./style.css">
-  <head>
-
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  
 <body>
   <div class="buttons-bar">
     <div class="buttons">
@@ -22,12 +15,11 @@
     </div>
   </div>
 
-    <div id="terminal">
-      <div id="mainInfo">
-        <div>
-          <div class="inlineContainer">
- <pre>
-  
+  <div id="terminal">
+    <div id="mainInfo">
+      <div>
+        <div class="inlineContainer">
+          <pre>
 Hello World! I'm
 
 ███╗░░██╗░█████╗░██╗░░░██╗░█████╗░
@@ -36,38 +28,30 @@ Hello World! I'm
 ██║╚████║██║░░██║░╚████╔╝░██║══██║
 ██║░╚███║╚█████╔╝░░╚██╔╝░░██║░░██║
 ╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝
-        </pre
-            >
-            <img src="images/lain.png" alt class="avatar" />
-          </div>
-            <div class="typing-demo">
-            Welcome to my personal website!
-            </div>
-          <div id="helpCmdList"></div>
+          </pre>
+          <img src="images/lain.png" alt class="avatar" />
         </div>
+        <div class="typing-demo">
+          Welcome to my personal website!
+        </div>
+        <div id="helpCmdList"></div>
       </div>
-      <div id="output"></div>
-      <div id="input" class="command-input">
-        <span id="prompt">
-          <span class="ownerTerminal"><b>nova@profile</b></span
-          ><b>:~$</b>
-        </span>
-
-        <input
-          type="text"
-          id="cmd"
-          oninput="showSuggestions()"
-          onkeydown="handleKeyDown(event)"
-        />
-      </div>
-
-      <div id="suggestions"></div>
     </div>
-    
-  </body>
-</html>
+    <div id="output"></div>
+    <div id="input" class="command-input">
+      <span id="prompt">
+        <span class="ownerTerminal"><b>nova@profile</b></span><b>:~$</b>
+      </span>
+      <input
+        type="text"
+        id="cmd"
+        oninput="showSuggestions()"
+        onkeydown="handleKeyDown(event)"
+      />
+    </div>
+    <div id="suggestions"></div>
+  </div>
 
-  <script  src="./script.js"></script>
-
+  <script src="./script.js"></script>
 </body>
 </html>
