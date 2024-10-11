@@ -6,7 +6,7 @@ Welcome to my interactive portfolio website! This project presents a unique term
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Commands](#commands)
-
+- [Portfolio Screenshot](#screenshots)
 ## Features
 - Interactive terminal interface for a modern portfolio experience.
 - Easy navigation through simple command inputs.
